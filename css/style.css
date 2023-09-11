@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 800;
-}
-
 :root {
   --secondary: #ffffff;
   --header: #2a5ee8;
@@ -21,6 +16,26 @@ body {
 
 .debug {
   border: 1px solid black;
+}
+
+.d-flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.d-flex.center{
+  justify-content: center;
+  gap: 30px;
+}
+
+/* body */
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
 }
 
 .container {
@@ -37,17 +52,29 @@ nav.container{
   padding: 20px;
 }
 
+#hero{
+  color: var(--secondary);
+}
+
+.description{
+  text-align: center;
+}
+
+h1{
+  padding-top: 220px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+p{
+  padding-top:40px;
+  line-height: 40px;
+  word-spacing: 3px;
+  font-size: larger;
+}
 footer {
   color: white;
   background-color: var(--primary);
-}
-
-.d-flex {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
 }
 
 ul {
@@ -87,11 +114,25 @@ li{
 .button{
   background-color: var(--secondary);
   color: var(--primary);
-  border-radius: 30px;
   min-width: 70px;
+  padding: 12px 24px;
+  border-radius: 70px;
+}
+
+.button.login{
+  margin: 0;
 }
 
 .button:hover{
   text-decoration: none;
 }
 
+.primary{
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.button.secondary, .button.primary{
+       font-size: 20px;
+       margin-top: 20px;
+}
