@@ -22,8 +22,16 @@
   align-content: center;
 }
 
+.center{
+  justify-content: center;
+}
+
 .r-reverse{
   flex-flow: row-reverse;
+}
+
+.flow-column{
+  flex-flow: column;
 }
 
 
@@ -112,6 +120,14 @@ h2{
   padding-top: 20px;
 }
 
+h3{
+  font-size: 25px;
+}
+
+#ready{
+  padding-top: 100px;
+}
+
 .image-section{
   width: 60%;
 }
@@ -123,6 +139,13 @@ h2{
 .left{
   padding-right: 30px;
 }
+
+.stars{
+  background-image: url(../img/stars.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* list */
 
 ul {
@@ -163,5 +186,16 @@ section > .container.d-flex{
 
 .button.secondary, .button.primary{
        font-size: 20px;
-       margin-top: 20px;
+       margin: 20px 10px;
 }
+
+.btn-download{
+  margin-top: 60px;
+}
+
+.accessory{
+  background-color: var(--accessory);
+  color: var(--secondary);
+  min-width: 40px;
+}
+
