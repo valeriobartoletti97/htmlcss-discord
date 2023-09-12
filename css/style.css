@@ -22,10 +22,6 @@
   align-content: center;
 }
 
-.d-flex.center{
-  justify-content: center;
-  gap: 30px;
-}
 
 /* body */
 
@@ -38,6 +34,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5px;
+}
+
+main img{
+  width: 100%;
 }
 
 header {
@@ -53,7 +53,7 @@ nav.container{
   color: var(--secondary);
 }
 
-.description{
+.text-center{
   text-align: center;
 }
 
@@ -100,6 +100,18 @@ a {
   height: 300px;
 }
 
+.content{
+  width: 40%;
+}
+
+h2{
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.image-section{
+  width: 60%;
+}
 /* list */
 
 ul {
@@ -108,6 +120,10 @@ ul {
 
 li{
   padding: 7px 10px
+}
+
+section > .container.d-flex{
+  padding-top: 100px;
 }
 
 /* buttons */
