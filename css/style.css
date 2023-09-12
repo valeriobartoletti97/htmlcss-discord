@@ -146,10 +146,20 @@ h3{
   background-repeat: no-repeat;
 }
 
+.endpage{
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 3px solid var(--accessory);
+}
+
 /* list */
 
 ul {
   list-style: none;
+}
+
+.resources{
+  padding-top: 240px;
 }
 
 li{
@@ -198,4 +208,9 @@ section > .container.d-flex{
   color: var(--secondary);
   min-width: 40px;
 }
+
+.color-accessory{
+  color: var(--accessory)
+}
+
 
