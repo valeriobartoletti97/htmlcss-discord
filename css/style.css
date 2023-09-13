@@ -34,6 +34,9 @@
   flex-flow: column;
 }
 
+.space-around{
+  justify-content: space-around;
+}
 
 /* body */
 
@@ -122,6 +125,11 @@ h2{
 
 h3{
   font-size: 25px;
+}
+
+h4{
+  font-size: 30px;
+  margin: 20px 10px;
 }
 
 #ready{
@@ -213,4 +221,14 @@ section > .container.d-flex{
   color: var(--accessory)
 }
 
+.end-index{
+  margin: 0 300px
+}
 
+#italy{
+  width: 25px;
+}
+
+.social{
+  margin: 10px 10px
+}
